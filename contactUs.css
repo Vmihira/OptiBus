@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: rgb(247, 249, 101);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    width: 70%;
+    margin: 20px auto;
+}
+.contact-box {
+    background: #fff;
+    display: flex;
+}
+.contact-left {
+    flex-basis: 60%;
+    padding: 40px 50px;
+}
+.contact-right {
+    flex-basis: 30%;
+    padding: 40px;
+    background-color: #ccdb47;
+    color: black;
+}
+h1 {
+    margin-bottom: 5px;
+}
+.container p {
+    margin-bottom: 5px;
+}
+.input-row {
+    /*display: flex;*/
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.input-row .input-group {
+    flex-basis: 100%;
+    margin-bottom: 50px;
+}
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    /*padding-bottom: 5px;*/
+}
+textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+}
+button {
+    background-color: #ccdb47;
+    width: 100px;
+    border: none;
+    outline: none;
+    height: 35px;
+    border-radius: 10px;
+    box-shadow: #ccc;
+}
+.contact-left h2 {
+    color: black;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+tr td:first-child {
+    padding-right: 20x;
+    font-size: larger;
+}
+tr td {
+    padding-top: 20px;
+    font-size: larger;
+}
+
+
+
+
+
+

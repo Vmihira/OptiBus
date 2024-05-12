@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: rgb(245,251,7);
+background: radial-gradient(circle, rgba(245,251,7,1) 0%, rgba(255,255,249,1) 100%);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    width: 70%;
+    margin: 10px auto;
+}
+.contact-box {
+    height: 500px;
+    background: #fff;
+    display: flex;
+}
+.location {
+    color: #fff;
+    flex-basis: 60%;
+    padding: 40px 30px;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(maps_pic.webp);
+}
+.location_text {
+    color: #fff;
+    font-size: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.emergency {
+    flex-basis: 30%;
+    padding: 40px;
+    /*background-color: #ccdb47;*/
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(emergency_pic.jpg);
+}
+.emer_text {
+    color: #fff;
+    font-size: 25px;
+}
+button {
+    background-color: #ffffff;
+    color: #000000;
+    width: 130px;
+    border: none;
+    outline: none;
+    height: 35px;
+    border-radius: 10px;
+    box-shadow: #ccc;
+    margin-top: 30px;
+    font-size:medium ;
+}
+#emergency-btn:hover {
+    background-color: bisque;
+}
+#enable-location-btn:hover {
+    background-color: bisque;
+}
